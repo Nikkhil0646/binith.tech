@@ -1,0 +1,115 @@
+.App {
+  display: flex;
+  justify-content: center;
+  max-width: 2560px;
+  height: 100vh;
+  align-items: center;
+  position: relative;
+  /* cursor: none; */
+  overflow: hidden;
+
+}
+
+.bg-image{
+  position: absolute; /* Makes the bg-image fill the parent container */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("./background.svg");
+  background-size: cover; /* Ensures the image covers the entire background */
+  background-position: center; /* Centers the background image */
+  z-index: -1; /* Places the bg-image behind other content */
+  filter: blur(20px);
+}
+
+.WholeContent{
+  width: 1224px;
+  height: 816px;
+  display: flex;
+  flex-direction: column; /* Allows content to stack vertically if needed */
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  font-family: 'Space Grotesk', serif;
+  z-index: 1; /* Ensures this content stays above the background */
+  border-radius: 20px; /* Optional: Add rounded corners */
+  
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  align-self: center;
+  gap: 24px;
+  padding-bottom: 24px;
+  
+}
+
+.bottom {
+  width: 1224px;
+  cursor: none;
+
+}
+
+
+.column {
+  flex: 1;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+}
+
+
+img{
+  height: 307px;
+  border-radius: 30px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  background-color: white;
+}
+
+.skills ul,
+.description {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+
+button {
+  background-color: rgb(255, 255, 255, 0.2);
+  backdrop-filter: blur(60px);
+  border-radius: 20px;
+  cursor: pointer;
+  text-align: center;
+  border: none;
+  color: black;
+  box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.145);
+}
+
+
+
+
+
+body {
+  margin: 0;
+  font-family: 'Space Grotesk', serif;
+  
+}
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+
+.social-links-row,
+.buttons-section-row {
+  width: 301px;
+  height: 339px;
+}
+
+

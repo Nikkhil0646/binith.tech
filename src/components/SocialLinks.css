@@ -1,0 +1,19 @@
+.social-links {
+    display: flex;          /* Use flexbox for alignment */
+    flex-direction: column; 
+    width: 301px; 
+    gap: 42px;          /* Center buttons horizontally */
+  }
+  
+  .social-links button {
+    padding: 15px 20px;     /* Add padding for better button appearance */
+    font-size: 40px;        /* Adjust font size */
+    /* cursor: none;    */
+    background-color: rgb(255, 255, 255, 0.2);
+  backdrop-filter: blur(60px);
+  font-family: 'Space Grotesk', serif;     /* Add pointer cursor on hover */
+  }
+  
+
+
+

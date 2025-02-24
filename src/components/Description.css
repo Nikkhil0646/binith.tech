@@ -1,0 +1,43 @@
+.description {
+    background-color: rgb(255, 255, 255, 0.2);
+  backdrop-filter: blur(60px);
+  margin: 0%;
+    width: 577px;
+    height: 339px;
+    align-items: center;
+    display: flex;
+    align-content: center;
+    border-radius: 30px;
+    font-size: 24px;
+    
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.145);
+}
+
+
+
+.resume_download{
+    align-self: center;
+    height: 32px;
+    padding: 2px;
+    align-items: center;
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.resume_button{
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.145);
+    font-family: 'Space Grotesk', serif;
+    font-size: 32px; 
+    background-color: rgba(216, 244, 146, 0.448);
+}
+
+button {
+    display: flex;
+    align-items: center;
+    font-family: 'Space Grotesk', serif; 
+    font-size: 40px;
+    gap: 10px;
+}

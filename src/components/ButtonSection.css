@@ -1,0 +1,17 @@
+.buttons-section {
+  display: flex;          /* Use flexbox for alignment */
+  flex-direction: column; 
+  width: 301px; 
+  gap: 42px; 
+
+  }
+  
+.buttons-section button { 
+  font-family: Grotesk;  /* Add padding for better button appearance */
+  padding: 15px 20px;     /* Add padding for better button appearance */
+  font-size: 40px;        /* Adjust font size */
+  /* cursor: none;   */
+  font-family: 'Space Grotesk', serif;  
+  background-color: rgb(255, 255, 255, 0.2);   
+
+}

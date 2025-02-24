@@ -1,0 +1,29 @@
+/* src/components/Modal.css */
+.modal-overlay {
+    position: fixed; /* Fixed position to cover the entire viewport */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; /* Align to bottom */
+    z-index: 1000; /* High z-index to ensure it stays on top */
+}
+
+.modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 90%; /* Adjust width as needed */
+    max-width: 1200px; /* Max width */
+    height: 50%;
+}
+
+.close-button {
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}

@@ -1,0 +1,33 @@
+.column{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.tabs{
+    width: 1224px;
+    height: 122px;
+    display: flex;
+    gap: 30px;
+}
+
+.experience {
+    height: 122px;
+    width: 388px;
+    display: flex;
+    justify-content: center;
+}
+
+.leadership{
+    height: 122px;
+    width: 388px;
+    display: flex;
+    justify-content: center;
+}
+
+.projects{
+    height: 122px;
+    width: 388px;
+    display: flex;
+    justify-content: center;
+}

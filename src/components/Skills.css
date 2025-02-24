@@ -1,0 +1,357 @@
+.skills {
+    display: flex;
+    flex-direction: column;
+    width: 616px;
+    height: 307px;
+    background-color: rgb(255, 255, 255, 0.2);
+  backdrop-filter: blur(60px);
+    border-radius: 30px;
+    justify-content: center;
+    
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.145);
+    
+}
+
+h2 {
+    font-size: 32px;
+}
+
+
+
+
+.first_row{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 45px;
+}
+
+.flutter_icon_logo
+{
+    height: 37px;
+    background-color: transparent;
+    box-shadow: none;
+    align-self: center;
+    border-radius: 0%;
+}
+
+.node_icon_logo
+{
+    height: 42px;
+    padding-bottom: 5px;
+    background-color: transparent;
+    box-shadow: none;
+    align-self: center;
+    border-radius: 0%;
+}
+
+
+.kotlin_icon_logo
+{
+    height: 37px;
+    background-color: transparent;
+    box-shadow: none;
+    align-self: center;
+    border-radius: 0%;
+}
+.react_icon_logo
+{
+    height: 42px;
+    background-color: transparent;
+    box-shadow: none;
+    align-self: center;
+    border-radius: 0%;
+}
+.three_icon_logo
+{
+    height: 40px;
+    background-color: transparent;
+    box-shadow: none;
+    align-self: center;
+    border-radius: 0%;
+}
+.mongo_icon_logo
+{
+    height: 42px;
+    background-color: transparent;
+    box-shadow: none;
+    align-self: center;
+    border-radius: 0%;
+}
+
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    width: 522px;
+    height: 52px;
+    gap: 37.2px;
+}
+
+.flutter {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 56px;
+    height: 52px;
+    background-color: #D0E2A2;
+    border-radius: 12px;
+}
+
+.kotlin {
+    display: flex;
+    justify-content: center;
+    
+    flex-direction: column;
+    width: 56px;
+    height: 52px;
+    background-color: #D0E2A2;
+    border-radius: 12px;
+}
+
+.react {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 56px;
+    height: 52px;
+    background-color: #D0E2A2;
+    border-radius: 12px;
+}
+.three {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 56px;
+    height: 52px;
+    background-color: #D0E2A2;
+    border-radius: 12px;
+}
+.mongo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 56px;
+    height: 52px;
+    background-color: #D0E2A2;
+    border-radius: 12px;
+}
+.node {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 56px;
+    height: 52px;
+    background-color: #D0E2A2;
+    border-radius: 12px;
+}
+
+
+.one {
+    display: flex;
+    width: 56px;
+    height: 2px;
+    background-color: #D0E2A2;
+    border-radius: 12px;
+}
+
+.two {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 56px;
+    height: 52px;
+    background-color: #D0E2A2;
+    border-radius: 12px;
+}
+
+.three {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 56px;
+    height: 52px;
+    background-color: #D0E2A2;
+    border-radius: 12px;
+}
+.four {
+    display: flex;
+    justify-content: center;
+    width: 56px;
+    height: 52px;
+    background-color: #D0E2A2;
+    border-radius: 12px;
+}
+.five {
+    display: flex;
+    justify-content: center;
+    width: 56px;
+    height: 52px;
+    background-color: #D0E2A2;
+    border-radius: 12px;
+}
+.six {
+    display: flex;
+    justify-content: center;
+    width: 56px;
+    height: 52px;
+    background-color: #D0E2A2;
+    border-radius: 12px;
+}
+
+.seven {
+    display: flex;
+    justify-content: center;
+    width: 56px;
+    height: 52px;
+    background-color: #D0E2A2;
+    border-radius: 12px;
+}
+
+.second_row {
+    position: relative;
+    overflow: hidden; /* Prevents content from spilling */
+    width: calc(100% - 100px); /* Respect padding on both sides */
+    height: 60px; /* Height of the row */
+    padding: 0 60px; /* Adds padding to left and right */
+    box-sizing: border-box; /* Includes padding in dimensions */
+    display: flex;
+    justify-self: start; /* Centers the scroll-container horizontally */
+    margin: 0 50px;
+    padding: 45px 0;
+  }
+  
+  .scroll-container {
+    display: flex;
+    gap: 40px; /* Space between items */
+    width: max-content;/* Double the width for seamless scrolling */
+    height: 100%; /* Matches the height of the row */
+    animation: seamless-scroll 10s linear infinite; /* Smooth infinite scrolling */
+    justify-content: flex-start; /* Start the scroll content smoothly */
+    align-items: center; /* Vertically center the items */
+    display: flex;
+    flex-direction: row;
+    
+  }
+  
+  .scroll-container div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 56px; /* Consistent width */
+    height: 52px; /* Consistent height */
+    background-color: #d0e2a2;
+    border-radius: 12px;
+    flex-shrink: 0; /* Prevents shrinking */
+  }
+  
+  /* Keyframes for smooth scrolling */
+  @keyframes seamless-scroll {
+    from {
+      transform: translateX(5); 
+    }
+    to {
+      transform: translateX(-50%);
+  }
+
+}
+  .icon-container {
+    display: flex;
+    flex-direction: column; /* Stack icon and text vertically */
+    align-items: center; /* Center align items */
+}
+
+.icon-container span {
+    margin-top: 50px; /* Space between icon and text */
+    font-size: 14px; /* Adjust font size as necessary */
+    color: #333; /* Set text color */
+}
+
+.one_div{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+  
+.one_icon_logo
+{
+    height: 37px;
+    background-color: transparent;
+    box-shadow: none;
+    align-self: center;
+    border-radius: 0%;
+}
+
+.two_icon_logo
+{
+    height: 42px;
+    background-color: transparent;
+    box-shadow: none;
+    align-self: center;
+    border-radius: 0%;
+}
+
+.cloud_icon_logo
+{
+    height: 37px;
+    background-color: transparent;
+    box-shadow: none;
+    align-self: center;
+    border-radius: 0%;
+}
+.four_icon_logo
+{
+    height: 42px;
+    background-color: transparent;
+    box-shadow: none;
+    align-self: center;
+    border-radius: 0%;
+}
+.five_icon_logo
+{
+    height: 40px;
+    background-color: transparent;
+    box-shadow: none;
+    align-self: center;
+    border-radius: 0%;
+}
+.six_icon_logo
+{
+    height: 42px;
+    background-color: transparent;
+    box-shadow: none;
+    align-self: center;
+    border-radius: 0%;
+}
+
+.seven_icon_logo
+{
+    height: 42px;
+    background-color: transparent;
+    box-shadow: none;
+    align-self: center;
+    border-radius: 0%;
+}
+
+.eight_icon_logo
+{
+    height: 42px;
+    background-color: transparent;
+    box-shadow: none;
+    align-self: center;
+    border-radius: 0%;
+}
+
+.nine_icon_logo
+{
+    height: 42px;
+    background-color: transparent;
+    box-shadow: none;
+    align-self: center;
+    border-radius: 0%;
+}
+
+span {
+    margin-top: 40px;
+}

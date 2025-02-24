@@ -1,0 +1,60 @@
+.header {
+    font-family: 'Space Grotesk', serif;
+    text-align: left;
+    background-color: rgb(255, 255, 255, 0.2);
+  backdrop-filter: blur(60px);
+    width: 308px;
+    height: 307px;
+    border-radius: 30px;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.145);
+
+}
+
+
+.hey{
+    font-size: 32px;
+    margin: 0;
+}
+
+h1
+{
+    font-size: 40px;
+    margin: 0;
+}
+
+.second_para{
+    font-size: 28px;
+    margin: 0;
+}
+
+.bullet_points {
+    font-size: 36px;
+
+}
+
+.Binith {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 32px;
+}
+
+
+
+.bullet_points {
+    font-size: 36px;
+    margin: 0;
+    padding-left: 30px;
+    letter-spacing: 1.5px;
+}
+
+ul.three_bullet{
+    list-style-type: disc; /* Remove default bullets */
+    padding: 0;       /* Remove default padding from the list */
+    margin: 0;
+    padding-top: 17px;
+    padding-left: 35px;
+}
+
+ul.three_bullet li{
+    margin: -10px 0;
+}

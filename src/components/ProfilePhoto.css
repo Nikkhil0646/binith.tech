@@ -1,0 +1,10 @@
+.profile-photo img{
+    border-radius: 30px;
+    width: 252px;
+    height: 307px;
+    display: flex;
+    background-color: rgb(255, 255, 255, 0.2);
+  backdrop-filter: blur(60px);
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.145);
+}
+
