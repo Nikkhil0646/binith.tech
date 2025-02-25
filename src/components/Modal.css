@@ -1,29 +1,95 @@
-/* src/components/Modal.css */
+/* Modal Overlay */
 .modal-overlay {
-    position: fixed; /* Fixed position to cover the entire viewport */
+    position: fixed;
     top: 0;
     left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
     display: flex;
     justify-content: center;
-    align-items: flex-end; /* Align to bottom */
-    z-index: 1000; /* High z-index to ensure it stays on top */
-}
-
-.modal-content {
+    align-items: flex-end; /* Align modal to bottom */
+    z-index: 1000;
+  }
+  
+  /* Bottom Sheet */
+  .modal-sheet {
+    width: 100%;
+    max-width: 500px;
     background: white;
+    border-radius: 20px 20px 0 0;
     padding: 20px;
-    border-radius: 8px;
-    width: 90%; /* Adjust width as needed */
-    max-width: 1200px; /* Max width */
-    height: 50%;
-}
-
-.close-button {
-    background: transparent;
+    box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.2);
+    position: relative;
+    min-height: 250px;
+    max-height: 600px;
+    overflow-y: auto;
+  }
+  
+  /* Draggable Handle */
+  .modal-handle {
+    width: 40px;
+    height: 5px;
+    background: gray;
+    border-radius: 10px;
+    margin: 10px auto 15px;
+    cursor: grab;
+  }
+  
+  /* Modal Header (Centered) */
+  .modal-header {
+    display: flex;
+    justify-content: center;  /* Center header */
+    align-items: center;
+    position: relative;
+    text-align: center;
+  }
+  
+  /* Close Button (Move to Right) */
+  .close-button {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    background: red;
+    color: black;
     border: none;
-    font-size: 20px;
     cursor: pointer;
-}
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  /* Modal Body (Center Align Text) */
+  .modal-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 15px;
+  }
+  
+  /* Extra Content Buttons Centered */
+  .extra-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+  }
+  
+  .extra-content button {
+    display: block;
+    margin: 5px 0;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 80%;
+    text-align: center;
+  }
+  
+  .extra-content button:hover {
+    background-color: #0056b3;
+  }
+  
