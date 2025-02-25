@@ -15,3 +15,19 @@
   background-color: rgb(255, 255, 255, 0.2);   
 
 }
+
+
+.visit_blog_button button {
+  font-size: 12px;  /* Smaller text */
+  padding: 5px 10px; /* Small rectangular button */
+  background-color: white; /* White background */
+  color: black; /* Black text */
+  border: 1px solid black; /* Thin border */
+  border-radius: 5px; /* Slightly rounded corners */
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.visit_blog_button button:hover {
+  background-color: #f0f0f0; /* Light gray on hover */
+}

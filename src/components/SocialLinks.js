@@ -10,7 +10,7 @@ const SocialLinks = () => {
   return (
     <div className="social-links">
       <button onClick={() => openLink("https://github.com/Nikkhil0646")}>GitHub</button>
-      <button onClick={() => openLink("https://www.behance.net/binithkumar1")}>Behance</button>
+      <button onClick={() => openLink("https://www.behance.net/binithkumar0646")}>Behance</button>
       <button onClick={() => openLink("https://www.linkedin.com/in/binith-kumar")}>LinkedIn</button>
     </div>
   );
